@@ -70,7 +70,20 @@ let salary = Number(prompt("What is your Salary?"));
 alert(`Your in hand salary is ${salary - (salary*3)/10}`);
 
 //  if..else vs switch
-
+let salary = Number(prompt("What is your Salary?"));
+switch (salary) {
+  case salary <= 20000 :
+    alert(`Your in hand salary is ${salary - (salary/10)}`);
+  break;
+  case salary <= 40000 :
+    alert(`Your in hand salary is ${salary - (salary/5)}`);
+  break;
+  case salary > 50000 :
+    alert(`Your in hand salary is ${salary - (salary*3)/10}`);
+  break;
+  default:
+    alert(`Your in hand salary is ${salary - (salary*3)/10}`);
+}
 /* 8.
 Implement the condition give below using`if..else` and`switch` statement.
 
