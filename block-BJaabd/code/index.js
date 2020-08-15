@@ -169,7 +169,7 @@ switch(operation) {
   break;
   case "Sub" :
     (num1<num2) ? alert("for substraction number1 should be greater than num2 please re-enter again"):
-    alert(`Substraction of ${num1} & ${num2} is ${num2-num1}`);
+    alert(`Substraction of ${num1} & ${num2} is ${num1-num2}`);
   break;
   case "Mul" :
     alert(`Multiplication of ${num1} & ${num2} is ${num2*num1}`);
